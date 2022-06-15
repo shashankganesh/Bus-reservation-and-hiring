@@ -1,0 +1,17 @@
+﻿body 
+{
+	background-image:url(blackbus.jpg);
+
+background-position:center
+}
+
+.table
+{
+	color:Green;
+	font-size:large;
+	padding:10px;
+}
+.btn:hover
+{
+	color:Green;
+}

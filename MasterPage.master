@@ -1,0 +1,53 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body  background="title.jpg">
+    <form id="form1" runat="server">
+    <div>
+        &nbsp;
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    <table>
+    <tr><td style="width: 259px; height: 315px;">
+        
+        <br />
+    
+     <asp:Button ID="Button1" runat="server" Text="Add Bus" Height="40px" Width="160px"  style="font-size:large;font-weight:bold;" BackColor="Transparent" BorderColor="Black" OnClick="Button1_Click"/><br />
+        <asp:Button ID="Button3" runat="server" Text="Remove Bus" Height="40px" Width="160px"  style="font-size:large;font-weight:bold;" BackColor="Transparent" BorderColor="Black" OnClick="Button3_Click" /><br />
+        <asp:Button ID="Button2" runat="server" Text="Customer Detail" Height="40px" Width="160px"  style="font-size:large;font-weight:bold;font:Cooper Black" BackColor="Transparent" BorderColor="Black" OnClick="Button2_Click" /><br />
+        <asp:Button ID="Button5" runat="server" Text="Hired details" Height="40px" Width="160px"  style="font-size:large;font-weight:bold;" BackColor="Transparent" BorderColor="Black" BorderStyle="Outset" OnClick="Button5_Click"/><br />
+        <asp:Button ID="Button8" runat="server" Text="Bus Charge(per km)"  Height="40px" Width="191px"  style="font-size:large;font-weight:bold;" BackColor="Transparent" BorderColor="Black" OnClick="Button4_Click" />
+        <br />
+        <br />
+        <br />
+             <asp:Button ID="Button6" runat="server" Text="Log Out" Height="40px" Width="160px"  style="font-size:large;font-weight:bold;" BackColor="Transparent" BorderColor="Black" BorderStyle="Outset" OnClick="Button6_Click"/>
+             <asp:Button ID="Button7" runat="server" Text="Change password" Height="40px" Width="200px"  style="font-size:large;font-weight:bold;" BackColor="Transparent" BorderColor="Black" OnClick="Button7_Click" /></td>
+   <td style="width: 1180px; height: 315px;">
+        &nbsp;<asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </asp:contentplaceholder>
+       </td> </tr>
+        </table>
+    </div>
+       
+    </form>
+</body>
+</html>
